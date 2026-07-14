@@ -1,8 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .heading,
@@ -10,28 +9,42 @@ body {
 .link2,
 .link3,
 .link4,
-.contents {
+.contents,
+img {
     border: 1px solid #000;
     color: #fff;
     background-color: #000;
     border-radius: 25px;
+    text-align: center;
 }
 
-.link1,
+img {
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    align-items: center;
+}
+
+/* .link1,
 .link2,
 .link3,
 .link4 {
     padding: 0.4%;
-}
+} */
 
-main p {
+/* main p {
     margin-left: 12.5%;
     margin-right: 12.5%;
     padding-left: 25px;
-}
+    padding-right: 25px;
+} */
 
-.heading,
+/* .heading,
 .contents {
     margin-left: 35%;
     margin-right: 35%;
 }
+
+.heading {
+    padding-left: 20%;
+    padding-right: 20%;
+} */
