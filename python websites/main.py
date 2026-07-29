@@ -8,6 +8,8 @@ name_input = ui.input(
     label = "enter your name"
 )
 
+socials = ui.link("Youtube", "https://www.youtube.com/@LivingAsA")
+
 greet_button = ui.button("greet", on_click = greet_user)
 
 label = ui.label("")
